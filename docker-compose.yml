@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cli:
+    build: .
+    restart: never
+    volumes:
+      - "./src:/src"
+    command: bash
+    working_dir: /src
