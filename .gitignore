@@ -1,2 +1,5 @@
 *.dll
 *.so
+*.lib
+*.pdb
+*.o
