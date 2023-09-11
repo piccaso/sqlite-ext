@@ -6,4 +6,4 @@ RUN wget https://ziglang.org/download/0.11.0/zig-linux-x86_64-0.11.0.tar.xz\
  && chmod ugo+x /bin/zig
 ADD src/ /src
 WORKDIR /src
-RUN ./build.sh && ls -lah
+RUN chmod +x *.sh && ./build.sh && ls -lah
