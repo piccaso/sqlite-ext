@@ -1,4 +1,4 @@
-## Build environment for spellfix1 sqlite extension
+## Build environment for spellfix1 sqlite extension (linux und win64 targets)
 examples for `gcc` or (clang based) `zig cc`
 
 start:
@@ -6,7 +6,7 @@ start:
 docker-compose run --rm cli
 ```
 
-run `build.sh` or look inside for build instructions
+run [`build.sh`](./src/build.sh) or look inside for build instructions
 
 ---
 
