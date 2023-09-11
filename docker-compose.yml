@@ -2,6 +2,7 @@ version: "3"
 services:
   cli:
     build: .
+    image: ghcr.io/piccaso/sqlite-ext:master
     restart: never
     volumes:
       - "./src:/src"
